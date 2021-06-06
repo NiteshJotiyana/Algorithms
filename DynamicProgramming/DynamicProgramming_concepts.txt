@@ -1,0 +1,59 @@
+Dynamic Programming for Coding Interview
+----------------------------------------
+
+
+1. Recursion -
+       Recursion is a problem Solving technique, where solution of a larger problem is defined in term of smaller instances of itself.
+       Points to note in recursion :
+       1. Terminating Condition
+       2. Recursive part
+       3. Every input it should return expected and same output
+       4. extra memory should be minimized
+       5. Easy to understand Code
+
+       >Head Recursion and Tail recursion
+       >Tail recusrion is same as Loop
+       >In problem we can not decide if its Head Recursion or tail recursion
+
+2. How it looks in Memory
+        > Recursive Programme take more memory O(n), as it create multiple Function call in stack
+
+3. Optimal Substructure
+        > Able to write Recursive Solution/Formula of Problem
+        > Shortest Path between 2 cities - Optimal Substructure
+        > Longest Path between 2 cities - Not
+
+4. Overlapping Subproblems
+        > If its calculate same Sub-problem multiple time
+        > Its goes to exponential time Complexity
+
+5. Memorization (Top Down Approach)
+        > Store function calls value , so that ovrlapping subproblem avoids
+        > We need to use Cache/Array to store these values.
+        > If problem is one dimension then 1D Array else N-D array for memorization
+
+6. Dynamic Programming (Bottom Up approach)
+        > Required to create Formula
+
+7. Top down vs Bottom Up
+
+    DP > In DP all the sub problems are solved before we will move to the last
+    Top-Down -> We will solve problems which are required (Binary Tree case)
+
+8. Strategy for DP Question
+        > Recursion -> Memorization/DP
+
+        1. Is it possible to divide the problem into subproblems of the same type ?
+        2. Are the subproblems overlapping ?
+        3. Are we trying to optimize something, maximize , minimize or something counting the total number of ways ?
+
+        > See if DP is applicable
+        > Define recursion
+              > Define problem in terms of subproblems
+              > Solve base case
+              > Add a terminating condition
+        > Try memorization
+        > Try solving bottom-Up
+
+
+
